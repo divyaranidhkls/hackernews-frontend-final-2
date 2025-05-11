@@ -54,7 +54,7 @@ export default function PostPage() {
 
       if (!res.ok) {
         console.error("Fetch error:", text);
-        setError("Failed to load posts.");
+        setError("Please Kindly Login To see and create POSTS.");
         setLoading(false);
         return;
       }
